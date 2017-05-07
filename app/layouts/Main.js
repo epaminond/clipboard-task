@@ -11,7 +11,7 @@ class Main extends Component {
     return (
       <div>
         <Helmet titleTemplate="%s | Project Nurse" defaultTitle="Project Nurse" />
-        <div id="container" id="main">
+        <div id="main">
           {this.props.children}
         </div>
       </div>);

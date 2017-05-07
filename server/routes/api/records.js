@@ -3,7 +3,7 @@ import Record from '../../models/Record';
 export default (req, res) => {
   Record.find().then((records) => {
     res.json({
-      records: records,
+      records,
       success: true,
     });
   }).catch((error) => {

@@ -3,9 +3,8 @@ import 'dotenv/config';
 import reactApp from './views/app';
 
 const routes = (app) => {
-
   /* example api route */
-  app.get('/api/records', require('./api/records')); 
+  app.get('/api/records', require('./api/records'));
 
   reactApp(app); // set up react routes
 };
