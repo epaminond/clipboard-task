@@ -1,7 +1,7 @@
 import Record from '../../models/Record';
 
 export default (req, res) => {
-  Record.find().then((records) => {
+  Record.find({ salary: { $ne: null } }).then((records) => {
     res.json({
       records,
       success: true,
