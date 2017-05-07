@@ -10,7 +10,7 @@ class Main extends Component {
   render() {
     return (
       <div>
-        <Helmet titleTemplate="%s | Project Nurse" defaultTitle="Project Nurse" />
+        <Helmet titleTemplate="%s | Clipboard Health" defaultTitle="Clipboard Health" />
         <div id="main">
           {this.props.children}
         </div>
